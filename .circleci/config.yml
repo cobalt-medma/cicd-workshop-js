@@ -11,7 +11,7 @@ jobs:
       - run:
           name: Copy tests results for storing
           command: |
-            cp test-results.xm ±/test-results/
+            cp test-results.xml ~/test-results/
           when: always
       - store_test_results:
           path: ~/test-results
